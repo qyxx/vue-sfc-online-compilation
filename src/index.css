@@ -1,0 +1,13 @@
+.app{
+   
+}
+#compile{
+    padding: 10px;
+    margin: 10px;
+    background: blue;
+    color: yellow;
+}
+#source, #compiled{
+    height: 500px;
+    width: 49%;
+}

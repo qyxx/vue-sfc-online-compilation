@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>VUE Compliation</title>
+</head>
+
+<body>
+    <button id="compile">compile</button>
+
+    <div id="app">
+        <textarea id="source"><template>
+            <div test123 class="home">
+              <img alt="Vue logo" src="../../assets/logo.png">
+              <HelloWorld msg="1Welcome to Your Vue.js App"/>
+            </div>
+          </template>
+          
+          <script>
+          // @ is an alias to /src
+          import HelloWorld from '@/components/HelloWorld.vue'
+          
+          export default {
+            name: 'Dashboard',
+            components: {
+              HelloWorld
+            }
+          }
+          </script>
+          
+          <style lang="less" scoped>
+          @blue : #1875e7;　
+          .home {
+            background-color: @blue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          </style>
+          </textarea>
+        <textarea id="compiled"></textarea>
+    </div>
+    
+</body>
+
+</html>
