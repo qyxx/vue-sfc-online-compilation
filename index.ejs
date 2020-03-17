@@ -9,25 +9,30 @@
     <button id="compile">compile</button>
 
     <div id="app">
-        <textarea id="source"><template>
-            <div test123 class="home">
-              <img alt="Vue logo" src="../../assets/logo.png">
-              <HelloWorld msg="1Welcome to Your Vue.js App"/>
-            </div>
-          </template>
-          
-          <script>
-          // @ is an alias to /src
-          import HelloWorld from '@/components/HelloWorld.vue'
-          
-          export default {
-            name: 'Dashboard',
-            components: {
-              HelloWorld
-            }
-          }
-          </script>
-          
+        <textarea id="source">
+            <template>
+              <el-form :model='ruleForm' :rules='rules' ref='ruleForm' label-width='auto' label-position='right' :hide-required-asterisk='false' :inline-message='false' :status-icon='false' size='' :disabled='false'>
+                <el-row>
+                  <el-col :span='12'>
+                    <el-form-item label='标签' prop='formProp1'>
+                      <el-input v-model="ruleForm.formProp1"></el-input>
+                    </el-form-item>
+                  </el-col>
+                  <el-col :span='12'>
+                    <el-form-item label='标签' prop='formProp1'>
+                      <el-input-number v-model="ruleForm.formProp1"></el-input-number>
+                    </el-form-item>
+                  </el-col>
+                </el-row>
+              </el-form>
+            </template>
+            <script>
+              export default {
+                data() {
+                  return {};
+                }
+              }
+            </script>                     
           <style lang="less" scoped>
           @blue : #1875e7;　
           .home {

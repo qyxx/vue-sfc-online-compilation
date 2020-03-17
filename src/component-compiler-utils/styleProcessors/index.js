@@ -1,37 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const merge = require('merge-source-map');
-// .scss/.sass processor
-const scss = {
-    render(source, map, options) {
-        const nodeSass = require('sass');
-        const finalOptions = Object.assign({}, options, {
-            data: source,
-            file: options.filename,
-            outFile: options.filename,
-            sourceMap: !!map
-        });
-        try {
-            const result = nodeSass.renderSync(finalOptions);
-            if (map) {
-                return {
-                    code: result.css.toString(),
-                    map: merge(map, JSON.parse(result.map.toString())),
-                    errors: []
-                };
-            }
-            return { code: result.css.toString(), errors: [] };
-        }
-        catch (e) {
-            return { code: '', errors: [e] };
-        }
-    }
-};
-const sass = {
-    render(source, map, options) {
-        return scss.render(source, map, Object.assign({}, options, { indentedSyntax: true }));
-    }
-};
+
 // .less
 const less = {
     render(source, map, options) {
@@ -56,7 +26,5 @@ const less = {
 };
 
 exports.processors = {
-    less,
-    sass,
-    scss,
+    less
 };

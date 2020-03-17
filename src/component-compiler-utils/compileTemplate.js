@@ -99,22 +99,6 @@ function actuallyCompile(options) {
         // transpiler when stripping with, but revert it back to `render` to
         // maintain backwards compat
         code = code.replace(/\s__(render|staticRenderFns)__\s/g, ' $1 ');
-        if (!isProduction) {
-            // mark with stripped (this enables Vue to use correct runtime proxy
-            // detection)
-            code += `render._withStripped = true`;
-            if (prettify) {
-                try {
-                    code = require('prettier').format(code, {
-                        semi: false,
-                        parser: 'babel'
-                    });
-                }
-                catch (e) {
-                    tips.push(`Failed to prettify component ${options.filename} template source after compilation.`);
-                }
-            }
-        }
         return {
             ast,
             code,

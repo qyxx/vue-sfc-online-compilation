@@ -39,7 +39,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.8.6", "@babel/generator@^7.8.7":
+"@babel/generator@^7.8.6", "@babel/generator@^7.8.7", "@babel/generator@^7.8.8":
   version "7.8.8"
   resolved "https://registry.npm.taobao.org/@babel/generator/download/@babel/generator-7.8.8.tgz?cache=0&sync_timestamp=1584040112268&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fgenerator%2Fdownload%2F%40babel%2Fgenerator-7.8.8.tgz#cdcd58caab730834cee9eeadb729e833b625da3e"
   integrity sha1-zc1YyqtzCDTO6e6ttynoM7Yl2j4=
@@ -243,9 +243,9 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.8.6", "@babel/parser@^7.8.7":
+"@babel/parser@^7.8.6", "@babel/parser@^7.8.7", "@babel/parser@^7.8.8":
   version "7.8.8"
-  resolved "https://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.8.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fparser%2Fdownload%2F%40babel%2Fparser-7.8.8.tgz#4c3b7ce36db37e0629be1f0d50a571d2f86f6cd4"
+  resolved "https://registry.npm.taobao.org/@babel/parser/download/@babel/parser-7.8.8.tgz#4c3b7ce36db37e0629be1f0d50a571d2f86f6cd4"
   integrity sha1-TDt8422zfgYpvh8NUKVx0vhvbNQ=
 
 "@babel/plugin-proposal-async-generator-functions@^7.8.3":
@@ -586,7 +586,7 @@
 
 "@babel/plugin-transform-runtime@^7.8.3":
   version "7.8.3"
-  resolved "https://registry.npm.taobao.org/@babel/plugin-transform-runtime/download/@babel/plugin-transform-runtime-7.8.3.tgz#c0153bc0a5375ebc1f1591cb7eea223adea9f169"
+  resolved "https://registry.npm.taobao.org/@babel/plugin-transform-runtime/download/@babel/plugin-transform-runtime-7.8.3.tgz?cache=0&sync_timestamp=1578953949970&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fplugin-transform-runtime%2Fdownload%2F%40babel%2Fplugin-transform-runtime-7.8.3.tgz#c0153bc0a5375ebc1f1591cb7eea223adea9f169"
   integrity sha1-wBU7wKU3XrwfFZHLfuoiOt6p8Wk=
   dependencies:
     "@babel/helper-module-imports" "^7.8.3"
@@ -731,7 +731,7 @@
 
 "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4", "@babel/traverse@^7.8.6":
   version "7.8.6"
-  resolved "https://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.8.6.tgz#acfe0c64e1cd991b3e32eae813a6eb564954b5ff"
+  resolved "https://registry.npm.taobao.org/@babel/traverse/download/@babel/traverse-7.8.6.tgz?cache=0&sync_timestamp=1582806192308&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Ftraverse%2Fdownload%2F%40babel%2Ftraverse-7.8.6.tgz#acfe0c64e1cd991b3e32eae813a6eb564954b5ff"
   integrity sha1-rP4MZOHNmRs+MuroE6brVklUtf8=
   dependencies:
     "@babel/code-frame" "^7.8.3"
@@ -760,6 +760,11 @@
   dependencies:
     normalize-path "^2.0.1"
     through2 "^2.0.3"
+
+"@microsoft/typescript-etw@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/@microsoft/typescript-etw/download/@microsoft/typescript-etw-0.1.0.tgz#96c7ee76657520488e3d556a42da857b15427eb9"
+  integrity sha1-lsfudmV1IEiOPVVqQtqFexVCfrk=
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -4831,11 +4836,6 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npm.taobao.org/preserve/download/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
-
-prettier@^1.19.1:
-  version "1.19.1"
-  resolved "https://registry.npm.taobao.org/prettier/download/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha1-99f1/4qc2HKnvkyhQglZVqYHl8s=
 
 pretty-error@^2.0.2:
   version "2.1.1"

@@ -5,39 +5,18 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | |   +-- chalk@2.4.2 deduped
 | |   +-- esutils@2.0.3 deduped
 | |   `-- js-tokens@4.0.0
-| +-- @babel/generator@7.8.8
-| | +-- @babel/types@7.8.7 deduped
-| | +-- jsesc@2.5.2
-| | +-- lodash@4.17.15 deduped
-| | `-- source-map@0.5.7
+| +-- @babel/generator@7.8.8 deduped
 | +-- @babel/helpers@7.8.4
 | | +-- @babel/template@7.8.6 deduped
 | | +-- @babel/traverse@7.8.6 deduped
 | | `-- @babel/types@7.8.7 deduped
-| +-- @babel/parser@7.8.8
+| +-- @babel/parser@7.8.8 deduped
 | +-- @babel/template@7.8.6
 | | +-- @babel/code-frame@7.8.3 deduped
 | | +-- @babel/parser@7.8.8 deduped
 | | `-- @babel/types@7.8.7 deduped
-| +-- @babel/traverse@7.8.6
-| | +-- @babel/code-frame@7.8.3 deduped
-| | +-- @babel/generator@7.8.8 deduped
-| | +-- @babel/helper-function-name@7.8.3
-| | | +-- @babel/helper-get-function-arity@7.8.3 deduped
-| | | +-- @babel/template@7.8.6 deduped
-| | | `-- @babel/types@7.8.7 deduped
-| | +-- @babel/helper-split-export-declaration@7.8.3
-| | | `-- @babel/types@7.8.7 deduped
-| | +-- @babel/parser@7.8.8 deduped
-| | +-- @babel/types@7.8.7 deduped
-| | +-- debug@4.1.1
-| | | `-- ms@2.1.2
-| | +-- globals@11.12.0
-| | `-- lodash@4.17.15 deduped
-| +-- @babel/types@7.8.7
-| | +-- esutils@2.0.3
-| | +-- lodash@4.17.15 deduped
-| | `-- to-fast-properties@2.0.0
+| +-- @babel/traverse@7.8.6 deduped
+| +-- @babel/types@7.8.7 deduped
 | +-- convert-source-map@1.7.0
 | | `-- safe-buffer@5.1.2
 | +-- debug@4.1.1
@@ -50,10 +29,39 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | `-- path-parse@1.0.6
 | +-- semver@5.7.1
 | `-- source-map@0.5.7
-+-- @babel/plugin-transform-runtime@7.8.3
++-- @babel/generator@7.8.8
+| +-- @babel/types@7.8.7 deduped
+| +-- jsesc@2.5.2
+| +-- lodash@4.17.15 deduped
+| `-- source-map@0.5.7
++-- @babel/parser@7.8.8
++-- @babel/plugin-proposal-async-generator-functions@7.8.3
+| +-- @babel/helper-plugin-utils@7.8.3
+| +-- @babel/helper-remap-async-to-generator@7.8.3
+| | +-- @babel/helper-annotate-as-pure@7.8.3
+| | | `-- @babel/types@7.8.7 deduped
+| | +-- @babel/helper-wrap-function@7.8.3
+| | | +-- @babel/helper-function-name@7.8.3 deduped
+| | | +-- @babel/template@7.8.6 deduped
+| | | +-- @babel/traverse@7.8.6 deduped
+| | | `-- @babel/types@7.8.7 deduped
+| | +-- @babel/template@7.8.6 deduped
+| | +-- @babel/traverse@7.8.6 deduped
+| | `-- @babel/types@7.8.7 deduped
+| `-- @babel/plugin-syntax-async-generators@7.8.4
+|   `-- @babel/helper-plugin-utils@7.8.3 deduped
++-- @babel/plugin-proposal-export-default-from@7.8.3
+| +-- @babel/helper-plugin-utils@7.8.3 deduped
+| `-- @babel/plugin-syntax-export-default-from@7.8.3
+|   `-- @babel/helper-plugin-utils@7.8.3 deduped
++-- @babel/plugin-transform-async-to-generator@7.8.3
 | +-- @babel/helper-module-imports@7.8.3
 | | `-- @babel/types@7.8.7 deduped
-| +-- @babel/helper-plugin-utils@7.8.3
+| +-- @babel/helper-plugin-utils@7.8.3 deduped
+| `-- @babel/helper-remap-async-to-generator@7.8.3 deduped
++-- @babel/plugin-transform-runtime@7.8.3
+| +-- @babel/helper-module-imports@7.8.3 deduped
+| +-- @babel/helper-plugin-utils@7.8.3 deduped
 | +-- resolve@1.15.1 deduped
 | `-- semver@5.7.1 deduped
 +-- @babel/preset-env@7.8.7
@@ -69,19 +77,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | `-- semver@5.7.1 deduped
 | +-- @babel/helper-module-imports@7.8.3 deduped
 | +-- @babel/helper-plugin-utils@7.8.3 deduped
-| +-- @babel/plugin-proposal-async-generator-functions@7.8.3
-| | +-- @babel/helper-plugin-utils@7.8.3 deduped
-| | +-- @babel/helper-remap-async-to-generator@7.8.3
-| | | +-- @babel/helper-annotate-as-pure@7.8.3 deduped
-| | | +-- @babel/helper-wrap-function@7.8.3
-| | | | +-- @babel/helper-function-name@7.8.3 deduped
-| | | | +-- @babel/template@7.8.6 deduped
-| | | | +-- @babel/traverse@7.8.6 deduped
-| | | | `-- @babel/types@7.8.7 deduped
-| | | +-- @babel/template@7.8.6 deduped
-| | | +-- @babel/traverse@7.8.6 deduped
-| | | `-- @babel/types@7.8.7 deduped
-| | `-- @babel/plugin-syntax-async-generators@7.8.4 deduped
+| +-- @babel/plugin-proposal-async-generator-functions@7.8.3 deduped
 | +-- @babel/plugin-proposal-dynamic-import@7.8.3
 | | +-- @babel/helper-plugin-utils@7.8.3 deduped
 | | `-- @babel/plugin-syntax-dynamic-import@7.8.3 deduped
@@ -116,8 +112,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | |   | `-- unicode-property-aliases-ecmascript@1.1.0
 | | |   `-- unicode-match-property-value-ecmascript@1.2.0
 | | `-- @babel/helper-plugin-utils@7.8.3 deduped
-| +-- @babel/plugin-syntax-async-generators@7.8.4
-| | `-- @babel/helper-plugin-utils@7.8.3 deduped
+| +-- @babel/plugin-syntax-async-generators@7.8.4 deduped
 | +-- @babel/plugin-syntax-dynamic-import@7.8.3
 | | `-- @babel/helper-plugin-utils@7.8.3 deduped
 | +-- @babel/plugin-syntax-json-strings@7.8.3
@@ -134,18 +129,14 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | `-- @babel/helper-plugin-utils@7.8.3 deduped
 | +-- @babel/plugin-transform-arrow-functions@7.8.3
 | | `-- @babel/helper-plugin-utils@7.8.3 deduped
-| +-- @babel/plugin-transform-async-to-generator@7.8.3
-| | +-- @babel/helper-module-imports@7.8.3 deduped
-| | +-- @babel/helper-plugin-utils@7.8.3 deduped
-| | `-- @babel/helper-remap-async-to-generator@7.8.3 deduped
+| +-- @babel/plugin-transform-async-to-generator@7.8.3 deduped
 | +-- @babel/plugin-transform-block-scoped-functions@7.8.3
 | | `-- @babel/helper-plugin-utils@7.8.3 deduped
 | +-- @babel/plugin-transform-block-scoping@7.8.3
 | | +-- @babel/helper-plugin-utils@7.8.3 deduped
 | | `-- lodash@4.17.15 deduped
 | +-- @babel/plugin-transform-classes@7.8.6
-| | +-- @babel/helper-annotate-as-pure@7.8.3
-| | | `-- @babel/types@7.8.7 deduped
+| | +-- @babel/helper-annotate-as-pure@7.8.3 deduped
 | | +-- @babel/helper-define-map@7.8.3
 | | | +-- @babel/helper-function-name@7.8.3 deduped
 | | | +-- @babel/types@7.8.7 deduped
@@ -289,26 +280,26 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | `-- source-map-support@0.5.16
 |   +-- buffer-from@1.1.1
 |   `-- source-map@0.6.1 deduped
-+-- @vue/component-compiler-utils@3.1.1
-| +-- consolidate@0.15.1
-| | `-- bluebird@3.7.2
-| +-- hash-sum@1.0.2
-| +-- lru-cache@4.1.5
-| | +-- pseudomap@1.0.2
-| | `-- yallist@2.1.2
-| +-- merge-source-map@1.1.0
-| | `-- source-map@0.6.1 deduped
-| +-- postcss@7.0.27
-| | +-- chalk@2.4.2 deduped
-| | +-- source-map@0.6.1 deduped
-| | `-- supports-color@6.1.0 deduped
-| +-- postcss-selector-parser@6.0.2
-| | +-- cssesc@3.0.0 deduped
-| | +-- indexes-of@1.0.1
-| | `-- uniq@1.0.1
-| +-- prettier@1.19.1
-| +-- source-map@0.6.1
-| `-- vue-template-es2015-compiler@1.9.1
++-- @babel/traverse@7.8.6
+| +-- @babel/code-frame@7.8.3 deduped
+| +-- @babel/generator@7.8.8 deduped
+| +-- @babel/helper-function-name@7.8.3
+| | +-- @babel/helper-get-function-arity@7.8.3 deduped
+| | +-- @babel/template@7.8.6 deduped
+| | `-- @babel/types@7.8.7 deduped
+| +-- @babel/helper-split-export-declaration@7.8.3
+| | `-- @babel/types@7.8.7 deduped
+| +-- @babel/parser@7.8.8 deduped
+| +-- @babel/types@7.8.7 deduped
+| +-- debug@4.1.1
+| | `-- ms@2.1.2
+| +-- globals@11.12.0
+| `-- lodash@4.17.15 deduped
++-- @babel/types@7.8.7
+| +-- esutils@2.0.3
+| +-- lodash@4.17.15 deduped
+| `-- to-fast-properties@2.0.0
++-- @microsoft/typescript-etw@0.1.0
 +-- autoprefixer@9.7.4
 | +-- browserslist@4.9.1 deduped
 | +-- caniuse-lite@1.0.30001035
@@ -391,9 +382,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | `-- schema-utils@2.6.5
 |   +-- ajv@6.12.0 deduped
 |   `-- ajv-keywords@3.4.1 deduped
-+-- de-indent@1.0.2
-+-- UNMET PEER DEPENDENCY fibers@>= 3.1.0
-+-- he@1.2.0
++-- hash-sum@1.0.2
 +-- html-webpack-plugin@3.2.0
 | +-- html-minifier@3.5.21
 | | +-- camel-case@3.0.0
@@ -441,7 +430,8 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | +-- inherits@2.0.4 deduped
 | | | | `-- readable-stream@3.6.0
 | | | |   +-- inherits@2.0.4 deduped
-| | | |   +-- string_decoder@1.3.0 deduped
+| | | |   +-- string_decoder@1.3.0
+| | | |   | `-- safe-buffer@5.2.0 deduped
 | | | |   `-- util-deprecate@1.0.2 deduped
 | | | +-- strip-ansi@3.0.1 deduped
 | | | `-- utila@0.4.0 deduped
@@ -474,138 +464,16 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 |       `-- string.prototype.trimright@2.1.1
 |         +-- define-properties@1.1.3 deduped
 |         `-- function-bind@1.1.1 deduped
-+-- node-sass@4.13.1
-| +-- async-foreach@0.1.3
-| +-- chalk@1.1.3
-| | +-- ansi-styles@2.2.1
-| | +-- escape-string-regexp@1.0.5 deduped
-| | +-- has-ansi@2.0.0
-| | | `-- ansi-regex@2.1.1 deduped
-| | +-- strip-ansi@3.0.1 deduped
-| | `-- supports-color@2.0.0
-| +-- cross-spawn@3.0.1
-| | +-- lru-cache@4.1.5 deduped
-| | `-- which@1.3.1 deduped
-| +-- gaze@1.1.3
-| | `-- globule@1.3.1
-| |   +-- glob@7.1.6 deduped
-| |   +-- lodash@4.17.15 deduped
-| |   `-- minimatch@3.0.4 deduped
-| +-- get-stdin@4.0.1
-| +-- glob@7.1.6
-| | +-- fs.realpath@1.0.0
-| | +-- inflight@1.0.6
-| | | +-- once@1.4.0 deduped
-| | | `-- wrappy@1.0.2
-| | +-- inherits@2.0.4
-| | +-- minimatch@3.0.4
-| | | `-- brace-expansion@1.1.11
-| | |   +-- balanced-match@1.0.0
-| | |   `-- concat-map@0.0.1
-| | +-- once@1.4.0
-| | | `-- wrappy@1.0.2 deduped
-| | `-- path-is-absolute@1.0.1
-| +-- in-publish@2.0.0
-| +-- lodash@4.17.15 deduped
-| +-- meow@3.7.0
-| | +-- camelcase-keys@2.1.0
-| | | +-- camelcase@2.1.1
-| | | `-- map-obj@1.0.1 deduped
-| | +-- decamelize@1.2.0
-| | +-- loud-rejection@1.6.0
-| | | +-- currently-unhandled@0.4.1
-| | | | `-- array-find-index@1.0.2
-| | | `-- signal-exit@3.0.2
-| | +-- map-obj@1.0.1
-| | +-- minimist@1.2.5 deduped
-| | +-- normalize-package-data@2.5.0
-| | | +-- hosted-git-info@2.8.8
-| | | +-- resolve@1.15.1 deduped
-| | | +-- semver@5.7.1 deduped
-| | | `-- validate-npm-package-license@3.0.4
-| | |   +-- spdx-correct@3.1.0
-| | |   | +-- spdx-expression-parse@3.0.0 deduped
-| | |   | `-- spdx-license-ids@3.0.5
-| | |   `-- spdx-expression-parse@3.0.0
-| | |     +-- spdx-exceptions@2.2.0
-| | |     `-- spdx-license-ids@3.0.5 deduped
-| | +-- object-assign@4.1.1 deduped
-| | +-- read-pkg-up@1.0.1
-| | | +-- find-up@1.1.2
-| | | | +-- path-exists@2.1.0
-| | | | | `-- pinkie-promise@2.0.1 deduped
-| | | | `-- pinkie-promise@2.0.1 deduped
-| | | `-- read-pkg@1.1.0
-| | |   +-- load-json-file@1.1.0
-| | |   | +-- graceful-fs@4.2.3 deduped
-| | |   | +-- parse-json@2.2.0
-| | |   | | `-- error-ex@1.3.2 deduped
-| | |   | +-- pify@2.3.0 deduped
-| | |   | +-- pinkie-promise@2.0.1 deduped
-| | |   | `-- strip-bom@2.0.0
-| | |   |   `-- is-utf8@0.2.1
-| | |   +-- normalize-package-data@2.5.0 deduped
-| | |   `-- path-type@1.1.0
-| | |     +-- graceful-fs@4.2.3 deduped
-| | |     +-- pify@2.3.0 deduped
-| | |     `-- pinkie-promise@2.0.1 deduped
-| | +-- redent@1.0.0
-| | | +-- indent-string@2.1.0
-| | | | `-- repeating@2.0.1
-| | | |   `-- is-finite@1.1.0
-| | | `-- strip-indent@1.0.1
-| | |   `-- get-stdin@4.0.1 deduped
-| | `-- trim-newlines@1.0.0
++-- less@3.11.1
+| +-- clone@2.1.2
+| +-- errno@0.1.7
+| | `-- prr@1.0.1
+| +-- graceful-fs@4.2.3
+| +-- image-size@0.5.5
+| +-- mime@1.6.0
 | +-- mkdirp@0.5.1 deduped
-| +-- nan@2.14.0
-| +-- node-gyp@3.8.0
-| | +-- fstream@1.0.12
-| | | +-- graceful-fs@4.2.3 deduped
-| | | +-- inherits@2.0.4 deduped
-| | | +-- mkdirp@0.5.1 deduped
-| | | `-- rimraf@2.7.1 deduped
-| | +-- glob@7.1.6 deduped
-| | +-- graceful-fs@4.2.3
-| | +-- mkdirp@0.5.1 deduped
-| | +-- nopt@3.0.6
-| | | `-- abbrev@1.1.1
-| | +-- npmlog@4.1.2 deduped
-| | +-- osenv@0.1.5
-| | | +-- os-homedir@1.0.2
-| | | `-- os-tmpdir@1.0.2
-| | +-- request@2.88.2 deduped
-| | +-- rimraf@2.7.1 deduped
-| | +-- semver@5.3.0
-| | +-- tar@2.2.2
-| | | +-- block-stream@0.0.9
-| | | | `-- inherits@2.0.4 deduped
-| | | +-- fstream@1.0.12 deduped
-| | | `-- inherits@2.0.4 deduped
-| | `-- which@1.3.1
-| |   `-- isexe@2.0.0
-| +-- npmlog@4.1.2
-| | +-- are-we-there-yet@1.1.5
-| | | +-- delegates@1.0.0
-| | | `-- readable-stream@2.3.7 deduped
-| | +-- console-control-strings@1.1.0
-| | +-- gauge@2.7.4
-| | | +-- aproba@1.2.0
-| | | +-- console-control-strings@1.1.0 deduped
-| | | +-- has-unicode@2.0.1
-| | | +-- object-assign@4.1.1 deduped
-| | | +-- signal-exit@3.0.2 deduped
-| | | +-- string-width@1.0.2
-| | | | +-- code-point-at@1.1.0
-| | | | +-- is-fullwidth-code-point@1.0.0
-| | | | | `-- number-is-nan@1.0.1
-| | | | `-- strip-ansi@3.0.1 deduped
-| | | +-- strip-ansi@3.0.1 deduped
-| | | `-- wide-align@1.1.3
-| | |   `-- string-width@2.1.1
-| | |     +-- is-fullwidth-code-point@2.0.0 deduped
-| | |     `-- strip-ansi@4.0.0
-| | |       `-- ansi-regex@3.0.0
-| | `-- set-blocking@2.0.0
+| +-- promise@7.3.1
+| | `-- asap@2.0.6
 | +-- request@2.88.2
 | | +-- aws-sign2@0.7.0
 | | +-- aws4@1.9.1
@@ -662,146 +530,247 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- tunnel-agent@0.6.0
 | | | `-- safe-buffer@5.2.0 deduped
 | | `-- uuid@3.4.0
-| +-- sass-graph@2.2.4
-| | +-- glob@7.1.6 deduped
-| | +-- lodash@4.17.15 deduped
-| | +-- scss-tokenizer@0.2.3
-| | | +-- js-base64@2.5.2
-| | | `-- source-map@0.4.4
-| | |   `-- amdefine@1.0.1
-| | `-- yargs@7.1.0
-| |   +-- camelcase@3.0.0
-| |   +-- cliui@3.2.0
-| |   | +-- string-width@1.0.2 deduped
-| |   | +-- strip-ansi@3.0.1 deduped
-| |   | `-- wrap-ansi@2.1.0 deduped
-| |   +-- decamelize@1.2.0 deduped
-| |   +-- get-caller-file@1.0.3 deduped
-| |   +-- os-locale@1.4.0
-| |   | `-- lcid@1.0.0
-| |   |   `-- invert-kv@1.0.0
-| |   +-- read-pkg-up@1.0.1 deduped
-| |   +-- require-directory@2.1.1 deduped
-| |   +-- require-main-filename@1.0.1 deduped
-| |   +-- set-blocking@2.0.0 deduped
-| |   +-- string-width@1.0.2 deduped
-| |   +-- which-module@1.0.0
-| |   +-- y18n@3.2.1
-| |   `-- yargs-parser@5.0.0
-| |     `-- camelcase@3.0.0 deduped
-| +-- stdout-stream@1.4.1
-| | `-- readable-stream@2.3.7
-| |   +-- core-util-is@1.0.2
-| |   +-- inherits@2.0.4 deduped
-| |   +-- isarray@1.0.0
-| |   +-- process-nextick-args@2.0.1
-| |   +-- safe-buffer@5.1.2
-| |   +-- string_decoder@1.1.1
-| |   | `-- safe-buffer@5.1.2 deduped
-| |   `-- util-deprecate@1.0.2
-| `-- true-case-path@1.0.3
-|   `-- glob@7.1.6 deduped
-+-- postcss-loader@3.0.0
-| +-- loader-utils@1.4.0 deduped
-| +-- postcss@7.0.27 deduped
-| +-- postcss-load-config@2.1.0
-| | +-- cosmiconfig@5.2.1
-| | | +-- import-fresh@2.0.0
-| | | | +-- caller-path@2.0.0
-| | | | | `-- caller-callsite@2.0.0
-| | | | |   `-- callsites@2.0.0
-| | | | `-- resolve-from@3.0.0 deduped
-| | | +-- is-directory@0.3.1
-| | | +-- js-yaml@3.13.1
-| | | | +-- argparse@1.0.10
-| | | | | `-- sprintf-js@1.0.3
-| | | | `-- esprima@4.0.1
-| | | `-- parse-json@4.0.0
-| | |   +-- error-ex@1.3.2
-| | |   | `-- is-arrayish@0.2.1
-| | |   `-- json-parse-better-errors@1.0.2 deduped
-| | `-- import-cwd@2.1.0
-| |   `-- import-from@2.1.0
-| |     `-- resolve-from@3.0.0 deduped
-| `-- schema-utils@1.0.0
-|   +-- ajv@6.12.0 deduped
-|   +-- ajv-errors@1.0.1
-|   `-- ajv-keywords@3.4.1 deduped
-+-- pug@2.0.4
-| +-- pug-code-gen@2.0.2
-| | +-- constantinople@3.1.2
-| | | +-- @types/babel-types@7.0.7
-| | | +-- @types/babylon@6.16.5
-| | | | `-- @types/babel-types@7.0.7 deduped
-| | | +-- babel-types@6.26.0
-| | | | +-- babel-runtime@6.26.0
-| | | | | +-- core-js@2.6.11
-| | | | | `-- regenerator-runtime@0.11.1
-| | | | +-- esutils@2.0.3 deduped
-| | | | +-- lodash@4.17.15 deduped
-| | | | `-- to-fast-properties@1.0.3
-| | | `-- babylon@6.18.0
-| | +-- doctypes@1.1.0
-| | +-- js-stringify@1.0.2
-| | +-- pug-attrs@2.0.4
-| | | +-- constantinople@3.1.2 deduped
-| | | +-- js-stringify@1.0.2 deduped
-| | | `-- pug-runtime@2.0.5 deduped
-| | +-- pug-error@1.3.3
-| | +-- pug-runtime@2.0.5 deduped
-| | +-- void-elements@2.0.1
-| | `-- with@5.1.1
-| |   +-- acorn@3.3.0
-| |   `-- acorn-globals@3.1.0
-| |     `-- acorn@4.0.13 deduped
-| +-- pug-filters@3.1.1
-| | +-- clean-css@4.2.3 deduped
-| | +-- constantinople@3.1.2 deduped
-| | +-- jstransformer@1.0.0
-| | | +-- is-promise@2.1.0
-| | | `-- promise@7.3.1
-| | |   `-- asap@2.0.6
-| | +-- pug-error@1.3.3 deduped
-| | +-- pug-walk@1.1.8
-| | +-- resolve@1.15.1 deduped
-| | `-- uglify-js@2.8.29
-| |   +-- source-map@0.5.7
-| |   +-- uglify-to-browserify@1.0.2
-| |   `-- yargs@3.10.0
-| |     +-- camelcase@1.2.1
-| |     +-- cliui@2.1.0
-| |     | +-- center-align@0.1.3
-| |     | | +-- align-text@0.1.4
-| |     | | | +-- kind-of@3.2.2
-| |     | | | | `-- is-buffer@1.1.6 deduped
-| |     | | | +-- longest@1.0.1
-| |     | | | `-- repeat-string@1.6.1 deduped
-| |     | | `-- lazy-cache@1.0.4
-| |     | +-- right-align@0.1.3
-| |     | | `-- align-text@0.1.4 deduped
-| |     | `-- wordwrap@0.0.2
-| |     +-- decamelize@1.2.0 deduped
-| |     `-- window-size@0.1.0
-| +-- pug-lexer@4.1.0
-| | +-- character-parser@2.2.0
-| | | `-- is-regex@1.0.5
-| | |   `-- has@1.0.3 deduped
-| | +-- is-expression@3.0.0
+| +-- source-map@0.6.1 deduped
+| `-- tslib@1.11.1
++-- lru-cache@4.1.5
+| +-- pseudomap@1.0.2
+| `-- yallist@2.1.2
++-- merge-source-map@1.1.0
+| `-- source-map@0.6.1 deduped
++-- module@1.2.5
+| +-- chalk@1.1.3
+| | +-- ansi-styles@2.2.1
+| | +-- escape-string-regexp@1.0.5 deduped
+| | +-- has-ansi@2.0.0
+| | | `-- ansi-regex@2.1.1 deduped
+| | +-- strip-ansi@3.0.1 deduped
+| | `-- supports-color@2.0.0
+| +-- concat-stream@1.5.1
+| | +-- inherits@2.0.4
+| | +-- readable-stream@2.0.6
+| | | +-- core-util-is@1.0.2
+| | | +-- inherits@2.0.4 deduped
+| | | +-- isarray@1.0.0
+| | | +-- process-nextick-args@1.0.7
+| | | +-- string_decoder@0.10.31
+| | | `-- util-deprecate@1.0.2
+| | `-- typedarray@0.0.6
+| +-- lodash.template@4.2.4
+| | +-- lodash._reinterpolate@3.0.0
+| | +-- lodash.assigninwith@4.2.0
+| | +-- lodash.keys@4.2.0
+| | +-- lodash.rest@4.0.5
+| | +-- lodash.templatesettings@4.2.0
+| | | `-- lodash._reinterpolate@3.0.0 deduped
+| | `-- lodash.tostring@4.1.4
+| +-- map-stream@0.0.6
+| +-- tildify@1.2.0
+| | `-- os-homedir@1.0.2
+| +-- vinyl-fs@2.4.3
+| | +-- duplexify@3.7.1
+| | | +-- end-of-stream@1.4.4
+| | | | `-- once@1.4.0 deduped
+| | | +-- inherits@2.0.4 deduped
+| | | +-- readable-stream@2.3.7 deduped
+| | | `-- stream-shift@1.0.1
+| | +-- glob-stream@5.3.5
+| | | +-- extend@3.0.2 deduped
+| | | +-- glob@5.0.15
+| | | | +-- inflight@1.0.6 deduped
+| | | | +-- inherits@2.0.4 deduped
+| | | | +-- minimatch@3.0.4 deduped
+| | | | +-- once@1.4.0 deduped
+| | | | `-- path-is-absolute@1.0.1 deduped
+| | | +-- glob-parent@3.1.0 deduped
+| | | +-- micromatch@2.3.11
+| | | | +-- arr-diff@2.0.0
+| | | | | `-- arr-flatten@1.1.0 deduped
+| | | | +-- array-unique@0.2.1
+| | | | +-- braces@1.8.5
+| | | | | +-- expand-range@1.8.2
+| | | | | | `-- fill-range@2.2.4
+| | | | | |   +-- is-number@2.1.0
+| | | | | |   | `-- kind-of@3.2.2 deduped
+| | | | | |   +-- isobject@2.1.0
+| | | | | |   | `-- isarray@1.0.0 deduped
+| | | | | |   +-- randomatic@3.1.1
+| | | | | |   | +-- is-number@4.0.0
+| | | | | |   | +-- kind-of@6.0.3
+| | | | | |   | `-- math-random@1.0.4
+| | | | | |   +-- repeat-element@1.1.3 deduped
+| | | | | |   `-- repeat-string@1.6.1 deduped
+| | | | | +-- preserve@0.2.0
+| | | | | `-- repeat-element@1.1.3 deduped
+| | | | +-- expand-brackets@0.1.5
+| | | | | `-- is-posix-bracket@0.1.1
+| | | | +-- extglob@0.3.2
+| | | | | `-- is-extglob@1.0.0 deduped
+| | | | +-- filename-regex@2.0.1
+| | | | +-- is-extglob@1.0.0
+| | | | +-- is-glob@2.0.1
+| | | | | `-- is-extglob@1.0.0 deduped
+| | | | +-- kind-of@3.2.2
+| | | | | `-- is-buffer@1.1.6
+| | | | +-- normalize-path@2.1.1
+| | | | | `-- remove-trailing-separator@1.1.0 deduped
+| | | | +-- object.omit@2.0.1
+| | | | | +-- for-own@0.1.5
+| | | | | | `-- for-in@1.0.2 deduped
+| | | | | `-- is-extendable@0.1.1 deduped
+| | | | +-- parse-glob@3.0.4
+| | | | | +-- glob-base@0.3.0
+| | | | | | +-- glob-parent@2.0.0
+| | | | | | | `-- is-glob@2.0.1 deduped
+| | | | | | `-- is-glob@2.0.1
+| | | | | |   `-- is-extglob@1.0.0 deduped
+| | | | | +-- is-dotfile@1.0.3
+| | | | | +-- is-extglob@1.0.0 deduped
+| | | | | `-- is-glob@2.0.1
+| | | | |   `-- is-extglob@1.0.0 deduped
+| | | | `-- regex-cache@0.4.4
+| | | |   `-- is-equal-shallow@0.1.3
+| | | |     `-- is-primitive@2.0.0
+| | | +-- ordered-read-streams@0.3.0
+| | | | +-- is-stream@1.1.0
+| | | | `-- readable-stream@2.3.7 deduped
+| | | +-- through2@0.6.5
+| | | | +-- readable-stream@1.0.34
+| | | | | +-- core-util-is@1.0.2 deduped
+| | | | | +-- inherits@2.0.4 deduped
+| | | | | +-- isarray@0.0.1
+| | | | | `-- string_decoder@0.10.31 deduped
+| | | | `-- xtend@4.0.2 deduped
+| | | +-- to-absolute-glob@0.1.1
+| | | | `-- extend-shallow@2.0.1 deduped
+| | | `-- unique-stream@2.3.1
+| | |   +-- json-stable-stringify-without-jsonify@1.0.1
+| | |   `-- through2-filter@3.0.0
+| | |     +-- through2@2.0.5 deduped
+| | |     `-- xtend@4.0.2 deduped
+| | +-- graceful-fs@4.2.3 deduped
+| | +-- gulp-sourcemaps@1.12.1
+| | | +-- @gulp-sourcemaps/map-sources@1.0.0
+| | | | +-- normalize-path@2.1.1
+| | | | | `-- remove-trailing-separator@1.1.0 deduped
+| | | | `-- through2@2.0.5 deduped
 | | | +-- acorn@4.0.13
-| | | `-- object-assign@4.1.1 deduped
-| | `-- pug-error@1.3.3 deduped
-| +-- pug-linker@3.0.6
-| | +-- pug-error@1.3.3 deduped
-| | `-- pug-walk@1.1.8 deduped
-| +-- pug-load@2.0.12
+| | | +-- convert-source-map@1.7.0 deduped
+| | | +-- css@2.2.4 deduped
+| | | +-- debug-fabulous@0.0.4
+| | | | +-- debug@2.6.9 deduped
+| | | | +-- lazy-debug-legacy@0.0.1
+| | | | `-- object-assign@4.1.0
+| | | +-- detect-newline@2.1.0
+| | | +-- graceful-fs@4.2.3 deduped
+| | | +-- source-map@0.6.1 deduped
+| | | +-- strip-bom@2.0.0 deduped
+| | | +-- through2@2.0.5 deduped
+| | | `-- vinyl@1.2.0 deduped
+| | +-- is-valid-glob@0.3.0
+| | +-- lazystream@1.0.0
+| | | `-- readable-stream@2.3.7 deduped
+| | +-- lodash.isequal@4.5.0
+| | +-- merge-stream@1.0.1
+| | | `-- readable-stream@2.3.7 deduped
+| | +-- mkdirp@0.5.1 deduped
 | | +-- object-assign@4.1.1 deduped
-| | `-- pug-walk@1.1.8 deduped
-| +-- pug-parser@5.0.1
-| | +-- pug-error@1.3.3 deduped
-| | `-- token-stream@0.0.1
-| +-- pug-runtime@2.0.5
-| `-- pug-strip-comments@1.0.4
-|   `-- pug-error@1.3.3 deduped
+| | +-- readable-stream@2.3.7
+| | | +-- core-util-is@1.0.2 deduped
+| | | +-- inherits@2.0.4 deduped
+| | | +-- isarray@1.0.0 deduped
+| | | +-- process-nextick-args@2.0.1
+| | | +-- safe-buffer@5.1.2
+| | | +-- string_decoder@1.1.1
+| | | | `-- safe-buffer@5.1.2 deduped
+| | | `-- util-deprecate@1.0.2 deduped
+| | +-- strip-bom@2.0.0
+| | | `-- is-utf8@0.2.1
+| | +-- strip-bom-stream@1.0.0
+| | | +-- first-chunk-stream@1.0.0
+| | | `-- strip-bom@2.0.0 deduped
+| | +-- through2@2.0.5
+| | | +-- readable-stream@2.3.7 deduped
+| | | `-- xtend@4.0.2
+| | +-- through2-filter@2.0.0
+| | | +-- through2@2.0.5 deduped
+| | | `-- xtend@4.0.2 deduped
+| | +-- vali-date@1.0.0
+| | `-- vinyl@1.2.0
+| |   +-- clone@1.0.4
+| |   +-- clone-stats@0.0.1
+| |   `-- replace-ext@0.0.1
+| `-- yargs@4.6.0
+|   +-- camelcase@2.1.1
+|   +-- cliui@3.2.0
+|   | +-- string-width@1.0.2 deduped
+|   | +-- strip-ansi@3.0.1 deduped
+|   | `-- wrap-ansi@2.1.0
+|   |   +-- string-width@1.0.2 deduped
+|   |   `-- strip-ansi@3.0.1 deduped
+|   +-- decamelize@1.2.0
+|   +-- lodash.assign@4.2.0
+|   +-- os-locale@1.4.0
+|   | `-- lcid@1.0.0
+|   |   `-- invert-kv@1.0.0
+|   +-- pkg-conf@1.1.3
+|   | +-- find-up@1.1.2
+|   | | +-- path-exists@2.1.0
+|   | | | `-- pinkie-promise@2.0.1 deduped
+|   | | `-- pinkie-promise@2.0.1 deduped
+|   | +-- load-json-file@1.1.0
+|   | | +-- graceful-fs@4.2.3 deduped
+|   | | +-- parse-json@2.2.0
+|   | | | `-- error-ex@1.3.2
+|   | | |   `-- is-arrayish@0.2.1
+|   | | +-- pify@2.3.0 deduped
+|   | | +-- pinkie-promise@2.0.1 deduped
+|   | | `-- strip-bom@2.0.0 deduped
+|   | +-- object-assign@4.1.1 deduped
+|   | `-- symbol@0.2.3
+|   +-- read-pkg-up@1.0.1
+|   | +-- find-up@1.1.2
+|   | | +-- path-exists@2.1.0
+|   | | | `-- pinkie-promise@2.0.1 deduped
+|   | | `-- pinkie-promise@2.0.1 deduped
+|   | `-- read-pkg@1.1.0
+|   |   +-- load-json-file@1.1.0 deduped
+|   |   +-- normalize-package-data@2.5.0
+|   |   | +-- hosted-git-info@2.8.8
+|   |   | +-- resolve@1.15.1 deduped
+|   |   | +-- semver@5.7.1 deduped
+|   |   | `-- validate-npm-package-license@3.0.4
+|   |   |   +-- spdx-correct@3.1.0
+|   |   |   | +-- spdx-expression-parse@3.0.0 deduped
+|   |   |   | `-- spdx-license-ids@3.0.5
+|   |   |   `-- spdx-expression-parse@3.0.0
+|   |   |     +-- spdx-exceptions@2.2.0
+|   |   |     `-- spdx-license-ids@3.0.5 deduped
+|   |   `-- path-type@1.1.0
+|   |     +-- graceful-fs@4.2.3 deduped
+|   |     +-- pify@2.3.0 deduped
+|   |     `-- pinkie-promise@2.0.1 deduped
+|   +-- require-main-filename@1.0.1
+|   +-- string-width@1.0.2
+|   | +-- code-point-at@1.1.0
+|   | +-- is-fullwidth-code-point@1.0.0
+|   | | `-- number-is-nan@1.0.1
+|   | `-- strip-ansi@3.0.1 deduped
+|   +-- window-size@0.2.0
+|   +-- y18n@3.2.1
+|   `-- yargs-parser@2.4.1
+|     +-- camelcase@3.0.0
+|     `-- lodash.assign@4.2.0 deduped
++-- postcss@7.0.27
+| +-- chalk@2.4.2 deduped
+| +-- source-map@0.6.1 deduped
+| `-- supports-color@6.1.0
+|   `-- has-flag@3.0.0
++-- postcss-selector-parser@6.0.2
+| +-- cssesc@3.0.0 deduped
+| +-- indexes-of@1.0.1
+| `-- uniq@1.0.1
++-- prettier@1.19.1
++-- readline@1.3.0
 +-- sass@1.26.3
 | `-- chokidar@3.3.1
 |   +-- anymatch@3.1.1
@@ -821,19 +790,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 |   +-- normalize-path@3.0.0 deduped
 |   `-- readdirp@3.3.0
 |     `-- picomatch@2.2.1 deduped
-+-- sass-loader@8.0.2
-| +-- clone-deep@4.0.1
-| | +-- is-plain-object@2.0.4
-| | | `-- isobject@3.0.1
-| | +-- kind-of@6.0.3
-| | `-- shallow-clone@3.0.1
-| |   `-- kind-of@6.0.3 deduped
-| +-- loader-utils@1.4.0 deduped
-| +-- neo-async@2.6.1
-| +-- schema-utils@2.6.5
-| | +-- ajv@6.12.0 deduped
-| | `-- ajv-keywords@3.4.1 deduped
-| `-- semver@6.3.0
++-- source-map@0.6.1
 +-- style-loader@1.1.3
 | +-- loader-utils@1.4.0 deduped
 | `-- schema-utils@2.6.5
@@ -853,15 +810,29 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | |   `-- urix@0.1.0
 | +-- debug@3.1.0
 | | `-- ms@2.0.0
-| +-- glob@7.1.6 deduped
+| +-- glob@7.1.6
+| | +-- fs.realpath@1.0.0
+| | +-- inflight@1.0.6
+| | | +-- once@1.4.0 deduped
+| | | `-- wrappy@1.0.2
+| | +-- inherits@2.0.4 deduped
+| | +-- minimatch@3.0.4
+| | | `-- brace-expansion@1.1.11
+| | |   +-- balanced-match@1.0.0
+| | |   `-- concat-map@0.0.1
+| | +-- once@1.4.0
+| | | `-- wrappy@1.0.2 deduped
+| | `-- path-is-absolute@1.0.1
 | +-- mkdirp@0.5.1 deduped
 | +-- safer-buffer@2.1.2
 | +-- sax@1.2.4
 | +-- semver@6.3.0
 | `-- source-map@0.7.3
++-- vue@2.6.11
 +-- vue-template-compiler@2.6.11
-| +-- de-indent@1.0.2 deduped
-| `-- he@1.2.0 deduped
+| +-- de-indent@1.0.2
+| `-- he@1.2.0
++-- vue-template-es2015-compiler@1.9.1
 +-- webpack@4.42.0
 | +-- @webassemblyjs/ast@1.8.5
 | | +-- @webassemblyjs/helper-module-context@1.8.5 deduped
@@ -920,7 +891,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | |   `-- punycode@2.1.1 deduped
 | +-- ajv-keywords@3.4.1
 | +-- chrome-trace-event@1.0.2
-| | `-- tslib@1.11.1
+| | `-- tslib@1.11.1 deduped
 | +-- enhanced-resolve@4.1.1
 | | +-- graceful-fs@4.2.3 deduped
 | | +-- memory-fs@0.5.0
@@ -935,8 +906,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | +-- loader-runner@2.4.0
 | +-- loader-utils@1.4.0 deduped
 | +-- memory-fs@0.4.1
-| | +-- errno@0.1.7
-| | | `-- prr@1.0.1
+| | +-- errno@0.1.7 deduped
 | | `-- readable-stream@2.3.7 deduped
 | +-- micromatch@3.1.10
 | | +-- arr-diff@4.0.0
@@ -949,13 +919,12 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | +-- fill-range@4.0.0
 | | | | +-- extend-shallow@2.0.1 deduped
 | | | | +-- is-number@3.0.0
-| | | | | `-- kind-of@3.2.2
-| | | | |   `-- is-buffer@1.1.6
+| | | | | `-- kind-of@3.2.2 deduped
 | | | | +-- repeat-string@1.6.1
 | | | | `-- to-regex-range@2.1.1
 | | | |   +-- is-number@3.0.0 deduped
 | | | |   `-- repeat-string@1.6.1 deduped
-| | | +-- isobject@3.0.1 deduped
+| | | +-- isobject@3.0.1
 | | | +-- repeat-element@1.1.3
 | | | +-- snapdragon@0.8.2 deduped
 | | | +-- snapdragon-node@2.1.1
@@ -963,8 +932,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | | `-- is-descriptor@1.0.2 deduped
 | | | | +-- isobject@3.0.1 deduped
 | | | | `-- snapdragon-util@3.0.1
-| | | |   `-- kind-of@3.2.2
-| | | |     `-- is-buffer@1.1.6 deduped
+| | | |   `-- kind-of@3.2.2 deduped
 | | | +-- split-string@3.1.0
 | | | | `-- extend-shallow@3.0.2
 | | | |   +-- assign-symbols@1.0.0 deduped
@@ -974,15 +942,16 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- define-property@2.0.2
 | | | +-- is-descriptor@1.0.2
 | | | | +-- is-accessor-descriptor@1.0.0
-| | | | | `-- kind-of@6.0.3 deduped
+| | | | | `-- kind-of@6.0.3
 | | | | +-- is-data-descriptor@1.0.0
-| | | | | `-- kind-of@6.0.3 deduped
-| | | | `-- kind-of@6.0.3 deduped
+| | | | | `-- kind-of@6.0.3
+| | | | `-- kind-of@6.0.3
 | | | `-- isobject@3.0.1 deduped
 | | +-- extend-shallow@3.0.2
 | | | +-- assign-symbols@1.0.0
 | | | `-- is-extendable@1.0.1
-| | |   `-- is-plain-object@2.0.4 deduped
+| | |   `-- is-plain-object@2.0.4
+| | |     `-- isobject@3.0.1 deduped
 | | +-- extglob@2.0.4
 | | | +-- array-unique@0.3.2 deduped
 | | | +-- define-property@1.0.0
@@ -1002,7 +971,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | `-- to-regex@3.0.2 deduped
 | | +-- fragment-cache@0.2.1
 | | | `-- map-cache@0.2.2
-| | +-- kind-of@6.0.3 deduped
+| | +-- kind-of@6.0.3
 | | +-- nanomatch@1.2.13
 | | | +-- arr-diff@4.0.0 deduped
 | | | +-- array-unique@0.3.2 deduped
@@ -1015,7 +984,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | |   `-- is-plain-object@2.0.4 deduped
 | | | +-- fragment-cache@0.2.1 deduped
 | | | +-- is-windows@1.0.2
-| | | +-- kind-of@6.0.3 deduped
+| | | +-- kind-of@6.0.3
 | | | +-- object.pick@1.3.0 deduped
 | | | +-- regex-not@1.0.2 deduped
 | | | +-- snapdragon@0.8.2 deduped
@@ -1053,8 +1022,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | | | +-- is-plain-object@2.0.4 deduped
 | | | | | | `-- split-string@3.1.0 deduped
 | | | | | +-- to-object-path@0.3.0
-| | | | | | `-- kind-of@3.2.2
-| | | | | |   `-- is-buffer@1.1.6 deduped
+| | | | | | `-- kind-of@3.2.2 deduped
 | | | | | +-- union-value@1.0.1
 | | | | | | +-- arr-union@3.1.0 deduped
 | | | | | | +-- get-value@2.0.6 deduped
@@ -1076,8 +1044,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | |   `-- object-copy@0.1.0
 | | | | |     +-- copy-descriptor@0.1.1
 | | | | |     +-- define-property@0.2.5 deduped
-| | | | |     `-- kind-of@3.2.2
-| | | | |       `-- is-buffer@1.1.6 deduped
+| | | | |     `-- kind-of@3.2.2 deduped
 | | | | +-- component-emitter@1.3.0
 | | | | +-- define-property@1.0.0
 | | | | | `-- is-descriptor@1.0.2 deduped
@@ -1113,7 +1080,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | |   +-- regex-not@1.0.2 deduped
 | |   `-- safe-regex@1.1.0 deduped
 | +-- mkdirp@0.5.1 deduped
-| +-- neo-async@2.6.1 deduped
+| +-- neo-async@2.6.1
 | +-- node-libs-browser@2.2.1
 | | +-- assert@1.5.0
 | | | +-- object-assign@4.1.1 deduped
@@ -1246,7 +1213,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | +-- inherits@2.0.4 deduped
 | | | +-- readable-stream@2.3.7 deduped
 | | | +-- to-arraybuffer@1.0.1
-| | | `-- xtend@4.0.2
+| | | `-- xtend@4.0.2 deduped
 | | +-- string_decoder@1.3.0
 | | | `-- safe-buffer@5.2.0 deduped
 | | +-- timers-browserify@2.0.11
@@ -1256,11 +1223,14 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- util@0.11.1
 | | | `-- inherits@2.0.3
 | | `-- vm-browserify@1.1.2
-| +-- schema-utils@1.0.0 deduped
+| +-- schema-utils@1.0.0
+| | +-- ajv@6.12.0 deduped
+| | +-- ajv-errors@1.0.1
+| | `-- ajv-keywords@3.4.1 deduped
 | +-- tapable@1.1.3 deduped
 | +-- terser-webpack-plugin@1.4.3
 | | +-- cacache@12.0.3
-| | | +-- bluebird@3.7.2 deduped
+| | | +-- bluebird@3.7.2
 | | | +-- chownr@1.1.4
 | | | +-- figgy-pudding@3.5.1
 | | | +-- glob@7.1.6 deduped
@@ -1273,14 +1243,9 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | | +-- buffer-from@1.1.1 deduped
 | | | | | +-- inherits@2.0.4 deduped
 | | | | | +-- readable-stream@2.3.7 deduped
-| | | | | `-- typedarray@0.0.6
-| | | | +-- duplexify@3.7.1
-| | | | | +-- end-of-stream@1.4.4 deduped
-| | | | | +-- inherits@2.0.4 deduped
-| | | | | +-- readable-stream@2.3.7 deduped
-| | | | | `-- stream-shift@1.0.1
-| | | | +-- end-of-stream@1.4.4
-| | | | | `-- once@1.4.0 deduped
+| | | | | `-- typedarray@0.0.6 deduped
+| | | | +-- duplexify@3.7.1 deduped
+| | | | +-- end-of-stream@1.4.4 deduped
 | | | | +-- flush-write-stream@1.1.1
 | | | | | +-- inherits@2.0.4 deduped
 | | | | | `-- readable-stream@2.3.7 deduped
@@ -1303,12 +1268,10 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | +-- stream-each@1.2.3
 | | | | | +-- end-of-stream@1.4.4 deduped
 | | | | | `-- stream-shift@1.0.1 deduped
-| | | | `-- through2@2.0.5
-| | | |   +-- readable-stream@2.3.7 deduped
-| | | |   `-- xtend@4.0.2 deduped
+| | | | `-- through2@2.0.5 deduped
 | | | +-- mkdirp@0.5.1 deduped
 | | | +-- move-concurrently@1.0.1
-| | | | +-- aproba@1.2.0 deduped
+| | | | +-- aproba@1.2.0
 | | | | +-- copy-concurrently@1.0.5
 | | | | | +-- aproba@1.2.0 deduped
 | | | | | +-- fs-write-stream-atomic@1.0.10 deduped
@@ -1360,7 +1323,8 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- semver@5.7.1 deduped
 | | +-- shebang-command@1.2.0
 | | | `-- shebang-regex@1.0.0
-| | `-- which@1.3.1 deduped
+| | `-- which@1.3.1
+| |   `-- isexe@2.0.0
 | +-- enhanced-resolve@4.1.0
 | | +-- graceful-fs@4.2.3 deduped
 | | +-- memory-fs@0.4.1 deduped
@@ -1385,7 +1349,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | +-- global-modules@2.0.0
 | | `-- global-prefix@3.0.0
 | |   +-- ini@1.3.5
-| |   +-- kind-of@6.0.3 deduped
+| |   +-- kind-of@6.0.3
 | |   `-- which@1.3.1 deduped
 | +-- import-local@2.0.0
 | | +-- pkg-dir@3.0.0 deduped
@@ -1396,8 +1360,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- big.js@5.2.2 deduped
 | | +-- emojis-list@2.1.0 deduped
 | | `-- json5@1.0.1 deduped
-| +-- supports-color@6.1.0
-| | `-- has-flag@3.0.0
+| +-- supports-color@6.1.0 deduped
 | +-- v8-compile-cache@2.0.3
 | `-- yargs@13.2.4
 |   +-- cliui@5.0.0
@@ -1420,11 +1383,11 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 |   | | +-- cross-spawn@6.0.5 deduped
 |   | | +-- get-stream@4.1.0
 |   | | | `-- pump@3.0.0 deduped
-|   | | +-- is-stream@1.1.0
+|   | | +-- is-stream@1.1.0 deduped
 |   | | +-- npm-run-path@2.0.2
 |   | | | `-- path-key@2.0.1 deduped
 |   | | +-- p-finally@1.0.0
-|   | | +-- signal-exit@3.0.2 deduped
+|   | | +-- signal-exit@3.0.2
 |   | | `-- strip-eof@1.0.0
 |   | +-- lcid@2.0.0
 |   | | `-- invert-kv@2.0.0
@@ -1435,7 +1398,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 |   |   `-- p-is-promise@2.1.0
 |   +-- require-directory@2.1.1
 |   +-- require-main-filename@2.0.0
-|   +-- set-blocking@2.0.0 deduped
+|   +-- set-blocking@2.0.0
 |   +-- string-width@3.1.0
 |   | +-- emoji-regex@7.0.3
 |   | +-- is-fullwidth-code-point@2.0.0
@@ -1452,7 +1415,8 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- deep-equal@1.1.1
 | | | +-- is-arguments@1.0.4
 | | | +-- is-date-object@1.0.2
-| | | +-- is-regex@1.0.5 deduped
+| | | +-- is-regex@1.0.5
+| | | | `-- has@1.0.3 deduped
 | | | +-- object-is@1.0.2
 | | | +-- object-keys@1.1.1 deduped
 | | | `-- regexp.prototype.flags@1.3.0
@@ -1477,7 +1441,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | +-- UNMET OPTIONAL DEPENDENCY fsevents@^1.2.7
 | | +-- glob-parent@3.1.0
 | | | +-- is-glob@3.1.0
-| | | | `-- is-extglob@2.1.1 deduped
+| | | | `-- is-extglob@2.1.1
 | | | `-- path-dirname@1.0.2
 | | +-- inherits@2.0.4 deduped
 | | +-- is-binary-path@1.0.1
@@ -1575,7 +1539,7 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | | | +-- setprototypeof@1.1.1 deduped
 | | | | +-- statuses@1.5.0 deduped
 | | | | `-- toidentifier@1.0.0 deduped
-| | | +-- mime@1.6.0
+| | | +-- mime@1.6.0 deduped
 | | | +-- ms@2.1.1
 | | | +-- on-finished@2.3.0 deduped
 | | | +-- range-parser@1.2.1 deduped
@@ -1677,7 +1641,8 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | |   +-- obuf@1.1.2
 | |   +-- readable-stream@3.6.0
 | |   | +-- inherits@2.0.4 deduped
-| |   | +-- string_decoder@1.3.0 deduped
+| |   | +-- string_decoder@1.3.0
+| |   | | `-- safe-buffer@5.2.0 deduped
 | |   | `-- util-deprecate@1.0.2 deduped
 | |   `-- wbuf@1.7.3
 | |     `-- minimalistic-assert@1.0.1
@@ -1700,25 +1665,20 @@ vue-sfc-online-compilation@1.0.0 E:\code\frontend\vue-sfc-online-compilation
 | | `-- async-limiter@1.0.1
 | `-- yargs@12.0.5
 |   +-- cliui@4.1.0
-|   | +-- string-width@2.1.1
-|   | | +-- is-fullwidth-code-point@2.0.0 deduped
-|   | | `-- strip-ansi@4.0.0 deduped
+|   | +-- string-width@2.1.1 deduped
 |   | +-- strip-ansi@4.0.0
 |   | | `-- ansi-regex@3.0.0
-|   | `-- wrap-ansi@2.1.0
-|   |   +-- string-width@1.0.2 deduped
-|   |   `-- strip-ansi@3.0.1 deduped
+|   | `-- wrap-ansi@2.1.0 deduped
 |   +-- decamelize@1.2.0 deduped
 |   +-- find-up@3.0.0 deduped
 |   +-- get-caller-file@1.0.3
 |   +-- os-locale@3.1.0 deduped
 |   +-- require-directory@2.1.1 deduped
-|   +-- require-main-filename@1.0.1
+|   +-- require-main-filename@1.0.1 deduped
 |   +-- set-blocking@2.0.0 deduped
 |   +-- string-width@2.1.1
 |   | +-- is-fullwidth-code-point@2.0.0 deduped
-|   | `-- strip-ansi@4.0.0
-|   |   `-- ansi-regex@3.0.0
+|   | `-- strip-ansi@4.0.0 deduped
 |   +-- which-module@2.0.0 deduped
 |   +-- y18n@4.0.0 deduped
 |   `-- yargs-parser@11.1.1
